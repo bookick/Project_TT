@@ -48,7 +48,7 @@ theTime.add({
 	duration: 2000,
 	update: function(percent) {
 		var thePercent = Math.round(percent.progress);
-		document.querySelector('.container .sup').innerHTML= "Nhịp tim của em " + (thePercent+899);
+		document.querySelector('.container .sup').innerHTML= "Nhịp tim của em ❤ " + (thePercent+899);
 	}
 });
 theTime.add({
@@ -189,7 +189,7 @@ var cantho =document.querySelector('.main');
 cantho.insertAdjacentHTML('afterend', '<div class="author mt-5"><div class="row"><div class="col-12"><div class="me text-danger text-right"></div></div></div></div>');
 
 document.querySelector('.Description .modal-title').innerHTML = '<i class="far fa-comment-alt"></i>&nbsp;Nhịp tim như vậy là vì';
-document.querySelector('.Description .modal-body').innerHTML = 'Em Thích Anh 💖<i class="fas fa-heart"></i> ';
+document.querySelector('.Description .modal-body').innerHTML = 'Em thích chị 💕 i love 3000 💗<i class="fas fa-heart"></i> ';
 var author = document.querySelector('.author .me');author.style.opacity = "0.5";
 author.innerHTML = "Bản quyền thuộc về<a href='Death Click'>Lmint<a>";
 author.style.opacity = "0";
